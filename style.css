@@ -83,19 +83,60 @@ main{
 #video{
     height: 495px;
     width: 50%;
+    text-align: center;
+}
+
+#video > iframe{
+    margin-top: 20px;
 }
 
 #lado-direito{
     height: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  
+}
+
+#redes{
+    height: 35%;
+    text-align: center;
 }
 
 #login{
     height: 64%;
+    text-align: center;
+}
+
+a{
+    color: #3bacd9;
+}
+
+.opcoes{
+    width: 70%;
+    height: 40px;
+    background-color: #2484bf;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.opcoes::placeholder{
+    text-align: center;
+    color: white;
 }
 
 #apoio{
     height: 190px;
-    width: 90%;
+    width: 95%;
+    text-align: center;
+}
+
+#apoio > img{
+    margin-top: -40px;
 }
 
 footer{
