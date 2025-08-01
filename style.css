@@ -129,6 +129,28 @@ a{
     color: white;
 }
 
+#mais{
+    display: flex;
+    justify-content: space-around;
+    /* cria um espaço entre os dois elementos */
+}
+
+button{
+  background-color: #4fce2d;
+  width: 20%;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;  
+}
+
+button::active{
+    background-color: #2484bf;
+}
+
 #apoio{
     height: 190px;
     width: 95%;
