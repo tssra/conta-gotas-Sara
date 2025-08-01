@@ -202,3 +202,31 @@ h1{
     margin: 20px;
     font-weight: 400;
 }
+
+#geral2{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cards{
+    height: 320px;
+    width: 390px;
+    background-color: white;
+}
+
+.cards > ul{
+    width: 80%;
+    margin: auto;
+}
+
+#texto{
+    height: 320px;
+    width: 390px;
+}
